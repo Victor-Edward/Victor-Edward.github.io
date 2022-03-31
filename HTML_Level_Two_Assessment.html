@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Teste HTML</title>
+  </head>
+  <body>
+    <h1>Página de Cadastro do Curso</h1>
+    <p>Os campos Primeiro nome, Sobrenome, Senha e Email são obrigatórios</p>
+
+        <form method="get">
+
+          <label for="FirstName">Primeiro nome:</label>
+          <input type="text" id="FirstName" placeholder="Primeiro nome" required>
+
+          <label for="LastName">Sobrenome:</label>
+          <input type="text" id="LastName" placeholder="Sobrenome" required>
+          <p></p>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="name@email.com">
+
+          <label for="pass">Senha:</label>
+          <input type="Senha" id="pass" >
+
+          <p>Você é maior de idade? (Possui 18 anos ou mais)</p>
+          <label for="sim">Sim:</label>
+          <input type="radio" name="Over18" id="sim" value="simOver">
+
+          <label for="nao">Não:</label>
+          <input type="radio" name="Over18" id="nao" value="naoOver">
+
+
+          <p>Qual o método de pagamento?</p>
+          <select name="pagamento">
+            <option value="cc">Cartão de crédito</option>
+            <option value="pp">PayPal</option>
+          </select>
+
+          <p></p>
+          <input type="submit" name="" value="Submit Feedback">
+
+
+        </form>
+
+
+  </body>
+</html>
